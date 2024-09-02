@@ -301,6 +301,18 @@ footer div {
 	top: 200px;
 }
 
+
+
+.dot{
+	height: 25px;
+	width: 25px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+
+
 @media all and (max-width: 1250px) {
 	#contact > article {
 		flex: 2;
