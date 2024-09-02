@@ -312,6 +312,15 @@ footer div {
 }
 
 
+.active{
+	height: 25px;
+	width: 25px;
+	margin: 0 5px;
+	background-color: #fff;
+	border-radius: 50%;
+	display: inline-block;
+}
+
 
 @media all and (max-width: 1250px) {
 	#contact > article {
