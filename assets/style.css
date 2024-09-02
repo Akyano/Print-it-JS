@@ -290,6 +290,17 @@ footer div {
 
 }
 
+#arrow_left{
+	position: absolute;
+	left: 10px;
+	top: 200px;
+}
+#arrow_right{
+	position: absolute;
+	right: 10px;
+	top: 200px;
+}
+
 @media all and (max-width: 1250px) {
 	#contact > article {
 		flex: 2;
