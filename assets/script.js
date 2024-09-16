@@ -42,9 +42,7 @@ dotsClick[0].classList.add('active');
 function slide(){
 	if((slides.length-1) == currentSlide )
 		currentSlide = -1
-	img.setAttribute('src', `./assets/images/slideshow/${slides[++currentSlide].image}`);
-	text.innerHTML = slides[currentSlide].tagLine
-	dotsClick[currentSlide].click()
+	dotsClick[++currentSlide].click()
 
 	return true;
 }
@@ -65,9 +63,7 @@ function dot(event){
 function slide_left(){
 	if(currentSlide == 0)
 		currentSlide = slides.length
-	img.setAttribute('src', `./assets/images/slideshow/${slides[--currentSlide].image}`);
-	text.innerHTML = slides[currentSlide].tagLine
-	dotsClick[currentSlide].click()
+	dotsClick[--currentSlide].click()
 
 	return true;
 }
