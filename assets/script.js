@@ -72,5 +72,7 @@ function slide_left(){
 	return true;
 }
 
+setInterval(slide,3000)
+
 next.addEventListener('click', slide);
 prev.addEventListener('click', slide_left);
